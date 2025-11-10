@@ -1,0 +1,22 @@
+{
+  "name": "stevechen-portfolio-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.4",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^4.5.5"
+  }
+}
