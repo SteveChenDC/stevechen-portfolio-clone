@@ -2,6 +2,11 @@
 
 This project re-implements the Steve Chen portfolio site as a Vite-powered React/TypeScript application. All original images are served from the `public/assets` directory, while the compiled Tailwind output is imported as a global stylesheet.
 
+Built with:
+- ⚡ Vite for fast development and optimized builds
+- ⚛️ React 18 with TypeScript
+- 🎨 Tailwind CSS for styling
+
 ### Getting Started
 
 ```bash

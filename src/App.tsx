@@ -300,8 +300,7 @@ const App: React.FC = () => (
               Impact by the Numbers
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
-              Results from Code &amp; Coffee demonstrating community building
-              excellence
+              Results from Code &amp; Coffee
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
