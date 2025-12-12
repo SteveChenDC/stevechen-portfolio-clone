@@ -235,7 +235,7 @@ const App: React.FC = () => (
                           Data-Driven Growth
                         </h3>
                         <p className="text-gray-600 text-sm leading-relaxed">
-                          Achieved 4.8/5.0 star reviews, 11,891+ ratings, and
+                          Achieved 4.8/5.0 star reviews, 9,447 ratings, and
                           measurable ROI through strategic community
                           initiatives.
                         </p>
@@ -410,7 +410,7 @@ const App: React.FC = () => (
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-yellow-500">
-                        11,891★
+                        9,447★
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
                         Meetup Reviews
