@@ -3,7 +3,32 @@ import React from "react";
 const App: React.FC = () => (
   <div>
     <div className="font-sans bg-ai-neutral text-ai-text">
-      <nav className="fixed top-0 w-full bg-white z-50 border-b border-gray-200 shadow-sm">
+      <div className="fixed top-0 w-full z-50 bg-gradient-to-r from-ai-primary to-ai-accent text-white text-center py-2 px-4 text-sm">
+        <a
+          href="https://www.steveslist.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline inline-flex items-center gap-2"
+        >
+          <span>Check out Steve's new project (in Open Beta) for curated developer events local to your city!</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={16}
+            height={16}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1={10} x2={21} y1={14} y2={3} />
+          </svg>
+        </a>
+      </div>
+      <nav className="fixed top-10 w-full bg-white z-50 border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
@@ -51,7 +76,7 @@ const App: React.FC = () => (
         </div>
       </nav>
       <section className="relative bg-white">
-        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-16">
+        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-28">
           <div className="absolute inset-0 bg-grid-pattern opacity-5" />
           <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-8 items-start py-12 lg:py-16">
@@ -486,10 +511,10 @@ const App: React.FC = () => (
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-green-600">
-                        368
+                        649
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
-                        Events in 2023
+                        Events in 2025
                       </p>
                     </div>
                   </div>
@@ -2206,8 +2231,8 @@ const App: React.FC = () => (
                         <div className="text-gray-600 mb-4 leading-relaxed">
                           Steve is currently leading as the Senior Community
                           Programs Manager at Sonar, leading the SonarQube User
-                          Groups program across 3 cities, building a Meetup Pro
-                          network reaching 606+ developers globally. Heavy
+                          Groups program across 3 cities, scaling the community
+                          from launch to 1,000+ members globally. Heavy
                           cross-functional collaboration with Product, DevRel,
                           and Sales teams while establishing scalable
                           company-owned community-led framework for 2025
@@ -2322,8 +2347,8 @@ const App: React.FC = () => (
                       <div className="text-gray-600 mb-4 leading-relaxed">
                         Steve is currently leading as the Senior Community
                         Programs Manager at Sonar, leading the SonarQube User
-                        Groups program across 3 cities, building a Meetup Pro
-                        network reaching 606+ developers globally. Heavy
+                        Groups program across 3 cities, scaling the community
+                        from launch to 1,000+ members globally. Heavy
                         cross-functional collaboration with Product, DevRel, and
                         Sales teams while establishing scalable company-owned
                         community-led framework for 2025 expansion to{" "}
@@ -2442,7 +2467,7 @@ const App: React.FC = () => (
                           </div>
                           <div className="bg-white p-4 rounded-lg shadow">
                             <div className="text-2xl font-bold text-ai-primary">
-                              300+
+                              600+
                             </div>
                             <div className="text-sm text-gray-600">
                               events annually
@@ -2810,7 +2835,7 @@ const App: React.FC = () => (
                               <path d="m9 11 3 3L22 4" />
                             </svg>
                             <span className="text-gray-900">
-                              Built Meetup Pro network reaching 606+ members
+                              Grew SonarQube User Groups from launch to 1,000+ members
                               globally
                             </span>
                           </div>
