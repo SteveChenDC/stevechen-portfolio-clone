@@ -78,9 +78,9 @@ const App: React.FC = () => (
                     <br />
                     from 0 to{" "}
                     <strong className="text-ai-primary">
-                      50,000+ devs
+                      74,738+ devs
                     </strong>{" "}
-                    across <strong className="text-ai-accent">40 cities</strong>
+                    across <strong className="text-ai-accent">37 cities</strong>
                     .<br />
                     <br />
                     Specializing in producing memorable brand activations,
@@ -332,7 +332,7 @@ const App: React.FC = () => (
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-ai-primary">
-                        50,000+
+                        74,738+
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
                         Total Developers Reached
@@ -340,8 +340,7 @@ const App: React.FC = () => (
                     </div>
                   </div>
                   <p className="text-xs md:text-sm text-gray-500 leading-relaxed">
-                    Across Code &amp; Coffee Collective with 50+ volunteer
-                    organizers
+                    Across Code &amp; Coffee Collective with 37 chapters nationwide
                   </p>
                 </div>
               </div>
@@ -1393,7 +1392,7 @@ const App: React.FC = () => (
                           </div>
                           <div className="text-center p-3 bg-gray-50 rounded-lg">
                             <div className="text-lg font-bold text-ai-primary">
-                              50K+
+                              74K+
                             </div>
                             <div className="text-xs text-gray-600 font-medium">
                               Developers
@@ -1604,7 +1603,7 @@ const App: React.FC = () => (
                         </div>
                         <div className="text-center p-3 bg-gray-50 rounded-lg">
                           <div className="text-lg font-bold text-ai-primary">
-                            50K+
+                            74K+
                           </div>
                           <div className="text-xs text-gray-600 font-medium">
                             Developers
@@ -2435,7 +2434,7 @@ const App: React.FC = () => (
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
                           <div className="bg-white p-4 rounded-lg shadow">
                             <div className="text-2xl font-bold text-ai-primary">
-                              50,000+
+                              74,738+
                             </div>
                             <div className="text-sm text-gray-600">
                               Total Developers
@@ -2465,7 +2464,7 @@ const App: React.FC = () => (
                         </h3>
                         <p className="mb-6 text-gray-600">
                           The meetup to make friends and grow - Community-led in{" "}
-                          <strong>40 cities</strong> across 50,000+ devs.
+                          <strong>37 cities</strong> across 74,738+ devs.
                         </p>
                         <div className="space-y-3 mb-6">
                           <div className="flex items-center">
@@ -2607,7 +2606,7 @@ const App: React.FC = () => (
                         <p className="mb-6 text-gray-600">
                           Rebooted developer meetups during the pandemic,
                           creating a scalable community model that expanded to
-                          40 cities nationwide with 12,218 active members.
+                          37 cities nationwide with 12,218 active members.
                         </p>
                         <div className="space-y-3 mb-6">
                           <div className="flex items-center">
@@ -3207,7 +3206,7 @@ const App: React.FC = () => (
                       </p>
                       <p className="text-gray-500 text-sm">
                         Showcased scaling from 10 to 367 in-person events across
-                        27 US cities serving 37,000+ developers
+                        37 US cities serving 74,738+ developers
                       </p>
                       <div className="flex items-center gap-3 mt-3">
                         <a
@@ -3477,7 +3476,7 @@ const App: React.FC = () => (
                         Boba Talk Podcast - December 2024
                       </h4>
                       <p className="text-gray-600 text-sm mb-2">
-                        #9: From LAN Parties to Building a 50,000 Member Dev
+                        #9: From LAN Parties to Building a 74,738 Member Dev
                         Community in 37 Cities
                       </p>
                       <div className="flex items-center gap-3 mt-3">
@@ -3574,7 +3573,7 @@ const App: React.FC = () => (
                     </h4>
                     <p className="text-gray-600 text-sm mb-2">
                       Visual storytelling showcasing member diversity -
-                      inspiring 30+ chapters across America
+                      inspiring 37 chapters across America
                     </p>
                     <p className="text-gray-500 text-sm">
                       Created diversity-focused collages that became templates
