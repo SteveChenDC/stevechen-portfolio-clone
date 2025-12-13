@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
-const App: React.FC = () => (
+const App: React.FC = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  return (
   <div>
     <div className="font-sans bg-ai-neutral text-ai-text">
       <div className="fixed top-0 w-full z-[60] bg-gradient-to-r from-ai-primary to-ai-accent text-white text-center py-2 px-4 text-sm">
@@ -54,7 +57,10 @@ const App: React.FC = () => (
                 Contact
               </button>
             </div>
-            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 lg:hidden">
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -67,16 +73,68 @@ const App: React.FC = () => (
                 strokeLinejoin="round"
                 className="lucide lucide-menu h-5 w-5"
               >
-                <line x1={4} x2={20} y1={12} y2={12} />
-                <line x1={4} x2={20} y1={6} y2={6} />
-                <line x1={4} x2={20} y1={18} y2={18} />
+                {mobileMenuOpen ? (
+                  <>
+                    <line x1={18} x2={6} y1={6} y2={18} />
+                    <line x1={6} x2={18} y1={6} y2={18} />
+                  </>
+                ) : (
+                  <>
+                    <line x1={4} x2={20} y1={12} y2={12} />
+                    <line x1={4} x2={20} y1={6} y2={6} />
+                    <line x1={4} x2={20} y1={18} y2={18} />
+                  </>
+                )}
               </svg>
             </button>
           </div>
         </div>
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg">
+            <div className="px-4 py-3 space-y-2">
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Metrics
+              </button>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Milestones
+              </button>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Case Studies
+              </button>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Portfolio
+              </button>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Shoutouts
+              </button>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-left px-3 py-2 text-gray-600 hover:text-ai-primary hover:bg-gray-50 rounded-md transition-colors"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        )}
       </nav>
       <section className="relative bg-white">
-        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-36">
+        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-40">
           <div className="absolute inset-0 bg-grid-pattern opacity-5" />
           <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-8 items-start py-12 lg:py-16">
@@ -4282,6 +4340,7 @@ const App: React.FC = () => (
       </footer>
     </div>
   </div>
-);
+  );
+};
 
 export default App;
