@@ -4135,7 +4135,6 @@ const App: React.FC = () => {
                     name="name"
                     required
                     placeholder="Your name"
-                    defaultValue
                   />
                 </div>
                 <div>
@@ -4152,7 +4151,6 @@ const App: React.FC = () => {
                     name="email"
                     required
                     placeholder="your.email@example.com"
-                    defaultValue
                   />
                 </div>
                 <div>
