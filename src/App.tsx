@@ -134,7 +134,7 @@ const App: React.FC = () => {
         )}
       </nav>
       <section className="relative bg-white">
-        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-40">
+        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-[104px]">
           <div className="absolute inset-0 bg-grid-pattern opacity-5" />
           <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-8 items-start py-12 lg:py-16">
