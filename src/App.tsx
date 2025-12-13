@@ -3,7 +3,7 @@ import React from "react";
 const App: React.FC = () => (
   <div>
     <div className="font-sans bg-ai-neutral text-ai-text">
-      <div className="fixed top-0 w-full z-50 bg-gradient-to-r from-ai-primary to-ai-accent text-white text-center py-2 px-4 text-sm">
+      <div className="fixed top-0 w-full z-[60] bg-gradient-to-r from-ai-primary to-ai-accent text-white text-center py-2 px-4 text-sm">
         <a
           href="https://www.steveslist.dev"
           target="_blank"
