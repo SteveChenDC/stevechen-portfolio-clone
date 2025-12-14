@@ -454,7 +454,7 @@ const App: React.FC = () => {
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-ai-accent">
-                        40 Cities
+                        37 Cities
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
                         with Active Meetups
@@ -1467,7 +1467,7 @@ const App: React.FC = () => {
                         <div className="grid grid-cols-3 gap-4 mb-4">
                           <div className="text-center p-3 bg-gray-50 rounded-lg">
                             <div className="text-lg font-bold text-ai-primary">
-                              40
+                              37
                             </div>
                             <div className="text-xs text-gray-600 font-medium">
                               Cities
@@ -1678,7 +1678,7 @@ const App: React.FC = () => {
                       <div className="grid grid-cols-3 gap-4 mb-4">
                         <div className="text-center p-3 bg-gray-50 rounded-lg">
                           <div className="text-lg font-bold text-ai-primary">
-                            40
+                            37
                           </div>
                           <div className="text-xs text-gray-600 font-medium">
                             Cities
@@ -2621,7 +2621,7 @@ const App: React.FC = () => {
                             Community-Led
                           </div>
                           <div className="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 px-3 py-1 bg-purple-700 text-white border-purple-700 hover:bg-purple-800">
-                            40 Cities
+                            37 Cities
                           </div>
                         </div>
                         <a
@@ -3683,7 +3683,7 @@ const App: React.FC = () => {
                       Code &amp; Coffee Website Design
                     </h4>
                     <p className="text-gray-600 text-sm mb-2">
-                      Designed user-friendly interface showcasing 40 meetups
+                      Designed user-friendly interface showcasing 37 meetups
                       with real-time meetup.com events data integration
                     </p>
                     <p className="text-gray-500 text-sm">
