@@ -3994,7 +3994,7 @@ const App: React.FC = () => {
                   <span className="ml-2 text-xs text-gray-600">5.0/5.0</span>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed mb-12 md:mb-8 italic">
-                  "this is sooo cool! I'm so happy you made this what it is, code and coffee was the best thing for me to meet other developers especially starting out and in a place I wasn't used to living yet. I need to come to one of these again soon, especially now that I'm actually working in C# from a Python background, I could use the extra practice 😂"
+                  "Code and Coffee was the best thing for me to meet other developers especially starting out and in a place I wasn't used to living yet."
                 </p>
                 <div className="hidden md:flex items-center absolute bottom-4 left-4 right-4">
                   <div className="w-8 h-8 rounded-full mr-3 bg-gradient-to-br from-ai-primary/20 to-ai-accent/20 flex items-center justify-center flex-shrink-0">
