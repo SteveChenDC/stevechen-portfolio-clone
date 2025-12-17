@@ -5,7 +5,7 @@ const App: React.FC = () => {
 
   return (
   <div>
-    <div className="font-sans bg-ai-neutral text-ai-text">
+    <div className="font-sans bg-ai-neutral text-ai-text overflow-x-hidden">
       <div className="fixed top-0 w-full z-[60] bg-gradient-to-r from-ai-primary to-ai-accent text-white text-center py-2 px-4 text-sm">
         <a
           href="https://www.steveslist.dev"
@@ -133,8 +133,8 @@ const App: React.FC = () => {
           </div>
         )}
       </nav>
-      <section className="relative bg-white">
-        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-[280px]">
+      <section className="relative bg-white pt-[160px]">
+        <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20">
           <div className="absolute inset-0 bg-grid-pattern opacity-5" />
           <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-8 items-start py-12 lg:py-16">
@@ -3975,98 +3975,41 @@ const App: React.FC = () => {
               <div className="bg-gradient-to-br p-5 md:p-4 rounded-2xl border min-w-0 relative from-purple-50 to-purple-100 border-purple-200">
                 <div className="flex items-center mb-4">
                   <div className="flex text-yellow-400">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-star h-4 w-4 fill-current"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star h-4 w-4 fill-current">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-star h-4 w-4 fill-current"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star h-4 w-4 fill-current">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-star h-4 w-4 fill-current"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star h-4 w-4 fill-current">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-star h-4 w-4 fill-current"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star h-4 w-4 fill-current">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-star h-4 w-4 fill-current"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star h-4 w-4 fill-current">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
                   </div>
                   <span className="ml-2 text-xs text-gray-600">5.0/5.0</span>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed mb-12 md:mb-8 italic">
-                  "Excellent organizers, friendly and was very helpful in
-                  connecting with like-minded people. As a woman in tech, felt
-                  empowered and supported."
+                  "this is sooo cool! I'm so happy you made this what it is, code and coffee was the best thing for me to meet other developers especially starting out and in a place I wasn't used to living yet. I need to come to one of these again soon, especially now that I'm actually working in C# from a Python background, I could use the extra practice 😂"
                 </p>
                 <div className="hidden md:flex items-center absolute bottom-4 left-4 right-4">
                   <div className="w-8 h-8 rounded-full mr-3 bg-gradient-to-br from-ai-primary/20 to-ai-accent/20 flex items-center justify-center flex-shrink-0">
                     <span className="text-ai-primary font-medium text-[10px]">
-                      EA
+                      EB
                     </span>
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="text-[11px] leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
                       <span className="font-medium text-ai-secondary">
-                        Event Attendee
+                        Emily Brown
                       </span>
                       <span className="text-gray-500">
                         {" "}
-                        • Developer Community Member
+                        • Software Developer at Accenture
                       </span>
                     </div>
                   </div>
@@ -4074,16 +4017,16 @@ const App: React.FC = () => {
                 <div className="flex md:hidden items-center">
                   <div className="w-8 h-8 rounded-full mr-3 bg-gradient-to-br from-ai-primary/20 to-ai-accent/20 flex items-center justify-center flex-shrink-0">
                     <span className="text-ai-primary font-medium text-[10px]">
-                      EA
+                      EB
                     </span>
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="text-xs leading-tight">
                       <div className="font-medium text-ai-secondary">
-                        Event Attendee
+                        Emily Brown
                       </div>
                       <div className="text-gray-500 text-[11px]">
-                        Developer Community Member
+                        Software Developer at Accenture
                       </div>
                     </div>
                   </div>
