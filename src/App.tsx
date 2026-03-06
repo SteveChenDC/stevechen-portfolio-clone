@@ -530,7 +530,7 @@ const App: React.FC = () => {
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-purple-600">
-                        9,000+
+                        11,000+
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
                         Discord Members
