@@ -133,7 +133,7 @@ const App: React.FC = () => {
           </div>
         )}
       </nav>
-      <section className="relative bg-white pt-[160px]">
+      <section className="relative bg-gray-900" style={{ paddingTop: '54px' }}>
         <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20 pb-20">
           <div className="absolute inset-0 bg-grid-pattern opacity-5" />
           <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -163,7 +163,7 @@ const App: React.FC = () => {
                     <strong className="text-ai-primary">
                       74,738+ devs
                     </strong>{" "}
-                    across <strong className="text-ai-accent">37 cities</strong>
+                    across <strong className="text-ai-accent">36 cities</strong>
                     .<br />
                     <br />
                     Specializing in producing memorable brand activations,
@@ -423,7 +423,7 @@ const App: React.FC = () => {
                     </div>
                   </div>
                   <p className="text-xs md:text-sm text-gray-500 leading-relaxed">
-                    Across Code &amp; Coffee Collective with 37 chapters nationwide
+                    Across Code &amp; Coffee Collective with 36 chapters nationwide
                   </p>
                 </div>
               </div>
@@ -454,7 +454,7 @@ const App: React.FC = () => {
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-2xl md:text-3xl font-bold leading-tight text-ai-accent">
-                        37 Cities
+                        36 Cities
                       </h3>
                       <p className="text-gray-600 text-sm md:text-base font-medium">
                         with Active Meetups
@@ -1443,11 +1443,7 @@ const App: React.FC = () => {
                           comprehensive brand campaign establishing it as the #1
                           dev community in 25 cities, utilizing multiple mediums
                           including video production, graphics design, web
-                          development, and post-event marketing. Operating as a{" "}
-                          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                            One Man Agency
-                          </span>{" "}
-                          to deliver cohesive brand experiences across all
+                          development, and post-event marketing. Operating as a one man agency to deliver cohesive brand experiences across all
                           touchpoints.
                         </div>
                         <div className="flex flex-wrap gap-2 mb-4">
@@ -1467,7 +1463,7 @@ const App: React.FC = () => {
                         <div className="grid grid-cols-3 gap-4 mb-4">
                           <div className="text-center p-3 bg-gray-50 rounded-lg">
                             <div className="text-lg font-bold text-ai-primary">
-                              37
+                              36
                             </div>
                             <div className="text-xs text-gray-600 font-medium">
                               Cities
@@ -1678,7 +1674,7 @@ const App: React.FC = () => {
                       <div className="grid grid-cols-3 gap-4 mb-4">
                         <div className="text-center p-3 bg-gray-50 rounded-lg">
                           <div className="text-lg font-bold text-ai-primary">
-                            37
+                            36
                           </div>
                           <div className="text-xs text-gray-600 font-medium">
                             Cities
@@ -2547,7 +2543,7 @@ const App: React.FC = () => {
                         </h3>
                         <p className="mb-6 text-gray-600">
                           The meetup to make friends and grow - Community-led in{" "}
-                          <strong>37 cities</strong> across 74,738+ devs.
+                          <strong>36 cities</strong> across 74,738+ devs.
                         </p>
                         <div className="space-y-3 mb-6">
                           <div className="flex items-center">
@@ -2621,7 +2617,7 @@ const App: React.FC = () => {
                             Community-Led
                           </div>
                           <div className="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 px-3 py-1 bg-purple-700 text-white border-purple-700 hover:bg-purple-800">
-                            37 Cities
+                            36 Cities
                           </div>
                         </div>
                         <a
@@ -2689,7 +2685,7 @@ const App: React.FC = () => {
                         <p className="mb-6 text-gray-600">
                           Rebooted developer meetups during the pandemic,
                           creating a scalable community model that expanded to
-                          37 cities nationwide with 12,218 active members.
+                          36 cities nationwide with 12,218 active members.
                         </p>
                         <div className="space-y-3 mb-6">
                           <div className="flex items-center">
@@ -3289,7 +3285,7 @@ const App: React.FC = () => {
                       </p>
                       <p className="text-gray-500 text-sm">
                         Showcased scaling from 10 to 367 in-person events across
-                        37 US cities serving 74,738+ developers
+                        36 US cities serving 74,738+ developers
                       </p>
                       <div className="flex items-center gap-3 mt-3">
                         <a
@@ -3560,7 +3556,7 @@ const App: React.FC = () => {
                       </h4>
                       <p className="text-gray-600 text-sm mb-2">
                         #9: From LAN Parties to Building a 74,738 Member Dev
-                        Community in 37 Cities
+                        Community in 36 Cities
                       </p>
                       <div className="flex items-center gap-3 mt-3">
                         <a
@@ -3656,7 +3652,7 @@ const App: React.FC = () => {
                     </h4>
                     <p className="text-gray-600 text-sm mb-2">
                       Visual storytelling showcasing member diversity -
-                      inspiring 37 chapters across America
+                      inspiring 36 chapters across America
                     </p>
                     <p className="text-gray-500 text-sm">
                       Created diversity-focused collages that became templates
@@ -3683,7 +3679,7 @@ const App: React.FC = () => {
                       Code &amp; Coffee Website Design
                     </h4>
                     <p className="text-gray-600 text-sm mb-2">
-                      Designed user-friendly interface showcasing 37 meetups
+                      Designed user-friendly interface showcasing 36 meetups
                       with real-time meetup.com events data integration
                     </p>
                     <p className="text-gray-500 text-sm">

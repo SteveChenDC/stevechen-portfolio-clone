@@ -70,7 +70,7 @@ const SpeakingSection: React.FC = () => {
               <p className="text-lg opacity-90">Speaking Engagements</p>
             </div>
             <div className="text-center">
-              <p className="text-4xl md:text-5xl font-bold mb-2">37</p>
+              <p className="text-4xl md:text-5xl font-bold mb-2">36</p>
               <p className="text-lg opacity-90">Cities</p>
             </div>
             <div className="text-center">

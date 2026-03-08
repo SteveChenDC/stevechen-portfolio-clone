@@ -24,7 +24,7 @@ const experiences: Experience[] = [
     role: 'Founder',
     dates: '2019 - Present',
     highlights: [
-      'Founded and scaled a developer community to 74,738+ members across 37 cities',
+      'Founded and scaled a developer community to 74,738+ members across 36 cities',
       'Organized 6,200+ events with 500+ monthly active participants',
     ],
   },
